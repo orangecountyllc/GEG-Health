@@ -7,7 +7,7 @@ HR, marketing, team recruitment and training, billing and payroll.
 ====================================================
 replace this with equity
 alt="General Electric"
-alt="Equity Dental Partners"
+alt="Equity Health Group"
 
 title="General Electric Logo" 
 ======================
