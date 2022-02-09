@@ -176,7 +176,6 @@ input[type=text]:focus {
 
 .accordion-button:not(.collapsed){
   /* background-color: wheat; */
-
   /* background-color: #f4f4f4; */
   background-color: white;
 }
