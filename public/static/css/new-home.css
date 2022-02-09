@@ -186,6 +186,8 @@ input[type=text]:focus {
   padding-right: 0px !important;
   /* margin-left: 0px !important;
   margin-right: 0px !important; */
-  background-color: #00AEEF;
+  /* background-color: #00AEEF;   */
+
+  background-color: #00b5e2;
   
 }
