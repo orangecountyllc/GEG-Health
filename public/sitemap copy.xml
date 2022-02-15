@@ -48,10 +48,13 @@
   <lastmod>2021-11-19T19:18:56+00:00</lastmod>
   <priority>0.80</priority>
 </url> 
-
-
 <url>
-  <loc>https://eqhgp.com/join-us/facility-administrator/</loc>
+  <loc>https://eqhgp.com/join-us/dentists/</loc>
+  <lastmod>2021-11-19T19:18:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url> 
+<url>
+  <loc>https://eqhgp.com/join-us/dental-hygienist/</loc>
   <lastmod>2021-11-19T19:18:56+00:00</lastmod>
   <priority>0.80</priority>
 </url> 
@@ -61,13 +64,7 @@
   <priority>0.80</priority>
 </url> 
 <url>
-  <loc>https://eqhgp.com/join-us/registered-nurse/</loc>
-  <lastmod>2021-11-19T19:18:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url> 
-
-<url>
-  <loc>https://eqhgp.com/join-us/certified-nurse-assistant/</loc>
+  <loc>https://eqhgp.com/join-us/dental-assistant/index.html</loc>
   <lastmod>2021-11-19T19:18:56+00:00</lastmod>
   <priority>0.80</priority>
 </url> 
@@ -114,7 +111,11 @@
   <lastmod>2021-11-28T19:18:56+00:00</lastmod>
   <priority>0.10</priority>
 </url> 
-
+<url>
+  <loc>https://eqhgp.com/DentalPracticeTransitions/</loc>
+  <lastmod>2021-11-28T19:18:56+00:00</lastmod>
+  <priority>0.10</priority>
+</url> 
 
 <url>
   <loc>https://eqhgp.com/privacy/</loc>
@@ -127,6 +128,7 @@
   <lastmod>2021-11-28T19:18:56+00:00</lastmod>
   <priority>0.10</priority>
 </url> 
+
 
 </urlset>
 
