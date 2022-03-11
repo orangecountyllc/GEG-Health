@@ -245,7 +245,7 @@ http://info.evidon.com/pub_info/3428
 
 <a href="https://www.facebook.com/eqdpi
 <a href="https://www.instagram.com/equitydental/"
-<a href="https://www.linkedin.com/company/equity-dental-partners" 
+<a href="https://www.linkedin.com/company/" 
 
 src="../../themes/custom/assets/images/eq_logo_default.svg
 
