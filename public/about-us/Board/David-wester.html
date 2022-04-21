@@ -19,18 +19,18 @@
   <meta class="swiftype" name="domain-identifier" data-type="integer" content="1" />
   <link rel="alternate" hreflang="en" href="dev do here />
 
-
+ 
   <link rel="icon" href="../../static/logo/eqlogo.png" sizes="32x32" />
   <link rel="icon" href="../../static/logo/eqlogo.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="../../static/logo/eqlogo.png" />
-  
 
-  <title> Chester - Board Profile | Equity Health Group </title>
+
+  <title> David Wester - Board Profile | Equity Health Group </title>
   <link rel="stylesheet" media="all"
     href="../../sites/default/files/css/profiles/p-twentyone.css" />
   
-    
-    <!--  DO   fix the Stay updated Form  -->
+
+    <!--  DONE very small - 50 lines  fix the Stay updated Form  -->
     <link rel="stylesheet" media="all"
     href="../../sites/default/files/css/profiles/p-twentyfour.css" />
     
@@ -45,7 +45,6 @@
 
 
   <!-- Global ( dev Jun 17 )    site tag (gtag.js) - Google Analytics -->
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9YCQ8NP1E"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -58,6 +57,63 @@
     gtag('config', 'G-L9YCQ8NP1E');
 
   </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+  <!-- loader start -->
+  <link rel="stylesheet" media="all" href="../../sites/default/files/css/home/animate.css" />
+
+<style>
+  .preloader {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;      
+/* Great working */
+      background-color: #a55c1b;
+      background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+      text-align: center;
+      z-index: 9999999
+  }
+
+  .preloader .spinner {
+      width: 139px;
+      height: 49px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto
+  }
+
+  .loader-logo {
+      float: left
+  }
+
+  .loader-logo img {
+      width: 139px;
+      height: auto
+  }
+</style>
+
+<!-- loader end -->
+<!-- loader start  -->
+<script type="text/javascript">
+  $(document).ready(function () {
+      console.log('123-Checking jquery');
+      $(".loader-logo").addClass("animated fadeOut");
+      $('.preloader').delay(800).fadeOut(800); // set duration in brackets
+  });
+</script>
+<!-- loader end  -->
+
+
 
 
 
@@ -78,6 +134,18 @@
   </a>
 
 
+
+
+<!-- loader start -->
+<div class="preloader">
+  <div class="spinner">
+      <div class="loader-logo"><img  src="../../static/logo/l1.webp">
+      </div>
+  </div>
+</div>
+<!-- loader start -->
+
+
   <!-- nav start -->
   <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
     <div class="page eq-page landing-page" role="eq-main-page-content">
@@ -94,7 +162,7 @@
           <div class="container-fluid">
 
             <a class="navbar-brand text-white" href="/">
-              <img class="d-inline-block img-fluid" alt="EQDPI" title="EQDPI Logo"
+              <img class="d-inline-block img-fluid" alt="EQHGP" title="EQHGP Logo"
                 src="../../static/logo/l1.webp">
 
             </a>
@@ -111,11 +179,19 @@
 
 
                   <li class="nav-item menu-level-one">
-                    <a href="/investors" class="nav-link px-auto px-lg-3 text-white iexternal" target="_blank"
-                      rel="noopener noreferrer" title="Investors"> Investors
-
+                    <a href="/careers/about-us" class="nav-link px-auto px-lg-3 text-white iexternal" target="_blank"
+                      rel="noopener noreferrer" title="about"> About
+  
                     </a>
                   </li>
+  
+                  <li class="nav-item menu-level-one">
+                    <a href="/careers" class="nav-link px-auto px-lg-3 text-white iexternal" target="_blank"
+                      rel="noopener noreferrer" title="Careers"> Careers
+  
+                    </a>
+                  </li>
+  
 
 
                   <li class="nav-item menu-level-one">
@@ -169,13 +245,15 @@
 
                     <li class="nav-item">
                       <div class="active-arrow">
-
-                        <a target="blank" href="/investors" title="Investors" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
-                          <h3>Investors</h3>
-
+                        <a target="blank" href="/Partnerships"   title="Partnerships" class="nav-link px-auto px-lg-3 text-white mobilenav-link">
+                          <h3>Partnerships</h3>
                         </a>
                       </div>
+
                     </li>
+
+
+    
 
                     <li class="nav-item">
                       <div class="active-arrow">
@@ -271,22 +349,7 @@
 
 
             <!-- mobile menu  wtf is going on here -->
-            <div class="mobile-navbar overlay d-lg-none">
-              <div class="wrap_overlay collapse" id="navbarSupportedContent">
-                <div class="inner--wrapper">
-                  <ul class="list-unstyled nav--list--level1 col-md-6 col-sm-12">
-                    
-                    <li class="nav-item--level2">
-                      <a href="/" title="Lorem" class="mobilenav-link">
-                        <h3>First</h3>
-                      </a>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+           
             <span class="dd-light-mask"> </span>
           </div>
           <span class="dd-light-mask"> </span>
@@ -317,59 +380,43 @@
               alt="Equity logo">
             <div class="row">
               <div class="col-3 no-padding">
-                <img id="print-profile-pic" src="/" alt="Chester">
+                <img id="print-profile-pic" src="/" alt="David Wester">
               </div>
               <div class="col-9 no-padding">
                 <div class="profile-banner print-bio-info">
-                  <p class="header-one">Chester Jeng</p>
-                  <p class="body-print"> Clinical Director, EQDPI</p>
+                  <p class="header-one">David Wester</p>
+                  <p class="body-print">Director Finance, EQHGP</p>
                   <p class="caption">Industry &amp; Director, EQPDI</p>
                 </div>
                 <hr />
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-12 print-body">
                 <p class="body-2">
                   <p>PRINCIPAL OCCUPATION:</p>
 
-                  <p>Clinical Director, EQDPI (since 2020)</p>
+                  <p>Industry Director, EQHGP (since 2020)</p>
 
                   <p>&nbsp;</p>
 
                   <p>PRIOR BUSINESS EXPERIENCE</p>
 
-                  <p>Senior</p>
+                  <p>Senior  ( remove this) </p>
 
           
                   <p>&nbsp;</p>
 
-                  <p>CURRENT PUBLIC COMPANY BOARDS</p>
+                  <p>CURRENT COMPANY BOARDS</p>
 
-                  <p>Equity Health Group</p>
-
-                  <p>&nbsp;</p>
-
-                  <p>PAST COMPANY MnA WORK </p>
-
-                                 <p>&nbsp;</p>
-
-                  <p>Bar Admissions </p>
-
-                  <p>New York</p>
+                  <p>Equity Health Group -1</p>
 
                   <p>&nbsp;</p>
 
-                  <p>EDUCATION</p>
-
-                  <p> College</p>
-
-                  <p>MBA</p>
-
-                  <p>&nbsp;</p>
+                 
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
 
@@ -379,9 +426,9 @@
             <div class="row">
               <div id="leader-info" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
                 <div id="pdf-title" class="profile-banner">
-                  <h1>Chester</h1>
-                  <p class="body-1">Clinical Director, EQDPI</p>
-                  <p class="caption">Equity Health Group since 2020</p>
+                  <h1>David Wester</h1>
+                  <p class="body-1">Industry Director, EQHGP</p>
+                  <p class="caption">Director Industry, Equity Dental Parnters since 2020</p>
                 </div>
               </div>
             </div>
@@ -393,12 +440,12 @@
               <div class="col-xl-4 col-lg-4 col-md-7 col-sm-5 col-12" id="div-img-parent">
                 <img id="leader-img"
                   style="border-radius: 25px;"
-                 src="../../static/profile-images/david-westers.jpeg" alt="Chester">
+                 src="../../static/profile-images/david-westers.jpeg" alt="David Wester">
               </div>
             </div>
           </div>
         </section>
-        <section id="leadership-body" class="leadership-body">
+        <section class="leadership-body">
           <div class="container-fluid-custom body-container">
             <div class="row">
               <div id="leader-bio"
@@ -407,45 +454,49 @@
                 <div class="body-2">
                   <!-- <p>PRINCIPAL OCCUPATION:</p> -->
 
-                  <p>Clinical Director, Equity Health Group (since 2021)</p>
+                  <p>Finance Director, Equity Health Group (since 2022) </p>
 
                   <p>&nbsp;</p>
 
-                  <p>PRIOR BUSINESS EXPERIENCE</p>
+                  <h4>PRIOR BUSINESS EXPERIENCE</h4>
 
-                  <p>Mr. Chester Jeng is a seasoned dentist and an attorney professional with over ~23 years of experience. <br/><br/>
+                  <p>Vitas Health Care </p>
+                  <h4>Former COO, Vitas Health Care ( 2001 - 2019)</h4>
+                  <p>Mr. David Wester is a seasoned healthcare executive with over 22 years of experience.
+                  </p>
+                  <p> Aug 1997 to Aug 2019 </p>
 
-                    He advises clients on dental compliance, malpractices, mergers, acquisitions, and divestitures of companies or businesses
-                    in various states in US. 
-                    <br/><br/>
-                    He also holds a dental license in New Zealand. 
-                     </p>
+                  <p>During his tenure at Vitas Health Care, the company grew from less than a million to one of the largest players in the hospice & home health care space.  
+                    </p>
 
-                     <li>*Quantic School of Business and Technology, MBA (in progress)
-                      MIT, Certificate, Entrepreneurship Bootcamp Aug-2021 </li>
-                      <br/>
-                    <li>St. Thomas University, College of Law, LL.M. (Master of Laws) May 2005</li>
-  <br/>
-                    <li>
-                      University of the Pacific, DDS
-                    </li>
-                    <br/>
-  
-  
-                    <li>California Dental License: # 45714 July 1998-Current</li>
-                    <br/>
-                    <li>North Carolina Attorney License: # 36212 March 2007-Current</li>
-  
-                    <br/>
-                    <li>California State University, Accounting 1991-1991</li>
-                    <br/>
-                    <li>California Polytechnic University, Accounting 1991-1994</li>
-                    <br/>
-                    <li>California Polytechnic University, Biology 1994-1994</li>
-  
-                    <br /><br />
-  
-  
+                    
+                
+                  <br/>
+                  <h4>Executive Vice President, Chief Finanical Officer</h4>
+                    <p>
+                   Foundation Health, A Florida Healthplan, Inc</p> <br/>
+
+                  <h4>Corporate Vice President, Vice President, CFO, Corporate Controller</h4>
+                  <p>Foster Management Company - health care subsidiary portfolio companies. </p>
+                  <p> Nov 1986 to Oct 1992 </p>
+                  <br/>
+
+                  <h4>Senior Accountant, Price Waterhouse</h4>
+                  <p> Aug 1981 - Oct 1986 </p>
+
+                  <p>&nbsp;</p>
+
+                  <h4>CURRENT PUBLIC COMPANY BOARDS </h4>
+
+                  <p>Equity Health Group</p>
+
+
+                  <p>&nbsp;</p>
+
+                  <h4>Role</h4>
+                  <p>David Wester is responsible for providing guidance on the acquisitions, evaluation, due diligence, and operations.  </p>
+
+
                  
                 </div>
               </div>
@@ -456,7 +507,7 @@
                 <div  class="views-element-container" >
                   <div  class="card" style="width: 18rem;">  
                     <!-- woods/pu.jpeg -->
-                    <div style="border-radius: 25px; background-image: url('../../static/img/woods/7.webp') " class="card-body">
+                    <div style="border-radius: 25px; background-image: url('') " class="card-body">
 
                       <header>
                         <div class="card-title h-6">
@@ -475,15 +526,29 @@
                         
 
                         <div class="views-row">
-                          <div class="views-field views-field-name"><span class="field-content">Dental Insurance </span>
+                          <div class="views-field views-field-name"><span class="field-content"> IT  </span>
                           </div>
                         </div>
 
                         <div class="views-row">
-                          <div class="views-field views-field-name"><span class="field-content">Clinical Due Diligence
+                          <div class="views-field views-field-name"><span class="field-content">Negotiation
                               </span></div>
                         </div>
-     
+                        <div class="views-row">
+                          <div class="views-field views-field-name"><span class="field-content">Financial Due Diligence</span>
+                          </div>
+                        </div>
+
+                        <div class="views-row">
+                          <div class="views-field views-field-name"><span class="field-content">Internal Growth</span></div>
+                        </div>
+                        <div class="views-row">
+                          <div class="views-field views-field-name"><span class="field-content">Integration</span></div>
+                        </div>
+                        <div class="views-row">
+                          <div class="views-field views-field-name"><span class="field-content">Corporate
+                              Governance</span></div>
+                        </div>
                        
 
 
@@ -501,8 +566,8 @@
           </div>
 
 
-
-          <div class="container-fluid-custom">
+<!-- bring back  -->
+          <!-- <div class="container-fluid-custom">
             <div class="row">
               <div class="col-12">
                 <div class="view-leaders">
@@ -511,15 +576,28 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </section>
 
 
 
 
+        <div class="container-fluid-custom body-container">
+          <div class="row">
+            <div id="leader-bio"
+              class="col-xl-6 order-xl-1 col-lg-6 order-lg-1 col-md-7 order-md-1 col-sm-7 order-sm-1 col-12 order-2 padding-left">
+              <h6> Links </h6>
+              
+              <a href="https://www.youtube.com/watch?v=X1El_SyrMvw"> https://www.youtube.com/watch?v=X1El_SyrMvw</a>
+
+              </div>
+              </div>
+              </div>
 
 
-              <section  style="border-radius: 25px, 25px, 0px, 0px; background-image: url('../../static/img/woods/wood1.webp') " id="eq-mail-chimp-section" class="eq-mail-chimp-section ">
+
+
+              <section  style="border-radius: 25px, 25px, 0px, 0px; background-image: url('../../static/img/woods/wood1.webp')" id="eq-mail-chimp-section" class="eq-mail-chimp-section ">
                 <div class="container-fluid-custom news-letter">
                   <div class="row">
                     <div class="col-xl-7 col-lg-7">
@@ -589,11 +667,6 @@
         <div class="row">
 
 
-
-
-
-
-
           <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0">
             <div class="inner-content">
 
@@ -657,13 +730,7 @@
               <div class="block block--footer-menu-custom-2">
 
 
-
-
-
-
-                <ul data-region="footer_right_in" class="eq-footer-menu-custom-2">
-                  
-                 
+                <ul data-region="footer_right_in" class="eq-footer-menu-custom-2">                 
                   <li>
 
                     <a href="/Careers" target="_self" class="body-2"
@@ -744,13 +811,13 @@
 
                   <ul class="social-media-links--platforms platforms inline horizontal">
                     <li>
-                      <a href="https://www.facebook.com/eqdpi" title="Equity Health Group Facebook page">
+                      <a href="https://www.facebook.com/EQHGP" title="Equity Health Group Facebook page">
                         <span class='fa fa-facebook fa-in'></span>
                       </a>
 
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/eqdpi" title="Equity Health Group YouTube page">
+                      <a href="https://www.youtube.com/EQHGP" title="Equity Health Group YouTube page">
                         <span class='fa fa-youtube fa-in'></span>
                       </a>
 
@@ -762,7 +829,7 @@
 
                     </li>
                     <li>
-                      <a href="https://www.twitter.com/eqdpi" title="Equity Health Group Twitter page">
+                      <a href="https://www.twitter.com/EQHGP" title="Equity Health Group Twitter page">
                         <span class='fa fa-twitter fa-in'></span>
                       </a>
 
@@ -782,7 +849,24 @@
               </div>
             </div>
 
-          
+            <!-- <div class="col-12 d-block d-md-none mt-2 mt-md-0">
+              <div class="inner-content text-center text-md-left">
+
+                <div class="block block--basic block--copyrights">
+
+
+                  <div class="basic__body">
+                    <p class="body-3" title="Copyright 2021 Equity Health Group">© 2021 Equity Health Group</p>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div> -->
+
+
           </div>
         </div>
       </div>
@@ -796,11 +880,19 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  
   <script src="../../sites/default/files/js/twentyone-Profile.js"></script>
+  
+  <!-- affects the mobile nav -->
   <script src="../../sites/default/files/js/twentytwo-Profile.js"></script>
+  
+  <!-- affects the mobile nav -->
   <script src="../../sites/default/files/js/twentythree-Profile.js"></script>
   
   
+
+
+
 
 </body>
 
